@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">CryptoApp</string>
+    <string name="description_initial">If you are creating a new wallet press the GENERATE button. Take note of the mnemonic phrase, it should be stored in a safe place.</string>
+    <string name="welcome_to_cryptowallet">Welcome to \nCryptoWallet!</string>
+    <string name="description_two">address list elephant genuine thunder conduct avocado educate chronic useless basic rough notable noble water bless labor monster muscle bike view caution river flavor</string>
+    <string name="create_new_wallet">create new wallet</string>
+    <string name="or_capture">OR CAPTURE</string>
+    <string name="access_wallet">ACCESS WALLET</string>
 </resources>
