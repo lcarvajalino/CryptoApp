@@ -1,11 +1,12 @@
-package com.demo.cryptoapp
+package com.demo.cryptoapp.view.details
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.demo.cryptoapp.R
 
-class HomeActivity : AppCompatActivity() {
+class DetailsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home)
+        setContentView(R.layout.activity_details)
     }
 }

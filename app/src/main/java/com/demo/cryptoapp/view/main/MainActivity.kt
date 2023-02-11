@@ -1,9 +1,10 @@
-package com.demo.cryptoapp
+package com.demo.cryptoapp.view.main
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.demo.cryptoapp.databinding.ActivityMainBinding
+import com.demo.cryptoapp.view.home.HomeActivity
 
 class MainActivity : AppCompatActivity() {
 
