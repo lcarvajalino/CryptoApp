@@ -1,4 +1,4 @@
-package com.cryptoapp.retrofit
+package com.demo.cryptoapp.retrofit
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

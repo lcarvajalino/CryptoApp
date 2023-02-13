@@ -6,11 +6,11 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.cryptoapp.models.Coin
+import com.demo.cryptoapp.interfaces.principal.IViewPrincipal
+import com.demo.cryptoapp.interfaces.principal.OnClickCoin
+import com.demo.cryptoapp.models.Coin
+import com.demo.cryptoapp.presenter.home.HomePresenter
 import com.demo.cryptoapp.databinding.ActivityHomeBinding
-import com.demo.cryptoapp.interfaces.IViewPrincipal
-import com.demo.cryptoapp.interfaces.OnClickCoin
-import com.demo.cryptoapp.presenter.HomePresenter
 import com.demo.cryptoapp.view.details.DetailsActivity
 
 class HomeActivity : AppCompatActivity(), IViewPrincipal, OnClickCoin {
@@ -43,6 +43,6 @@ class HomeActivity : AppCompatActivity(), IViewPrincipal, OnClickCoin {
     }
 
     override fun onclick(id: String?) {
-        startActivity(Intent(this, DetailsActivity::class.java))
+        startActivity(Intent(this, DetailsActivity::class.java).putExtra("id",id))
     }
 }

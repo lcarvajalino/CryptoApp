@@ -1,6 +1,6 @@
-package com.demo.cryptoapp.interfaces
+package com.demo.cryptoapp.interfaces.principal
 
-import com.cryptoapp.models.Coin
+import com.demo.cryptoapp.models.Coin
 
 interface IPresenterPrincipal {
 

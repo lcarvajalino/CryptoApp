@@ -3,9 +3,9 @@ package com.demo.cryptoapp.view.home
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.cryptoapp.models.Coin
+import com.demo.cryptoapp.interfaces.principal.OnClickCoin
+import com.demo.cryptoapp.models.Coin
 import com.demo.cryptoapp.R
-import com.demo.cryptoapp.interfaces.OnClickCoin
 
 class CoinAdapter(private val coins: ArrayList<Coin>, private val clickCoin: OnClickCoin) :
     RecyclerView.Adapter<CoinViewHolder>() {

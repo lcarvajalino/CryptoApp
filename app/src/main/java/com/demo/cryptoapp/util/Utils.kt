@@ -1,7 +1,4 @@
-package com.cryptoapp.util
-
-import android.graphics.Bitmap
-import android.graphics.Color
+package com.demo.cryptoapp.util
 
 class Utils {
     fun getRandom(min: Int, max: Int): Double {

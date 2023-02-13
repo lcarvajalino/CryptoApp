@@ -1,13 +1,15 @@
-package com.cryptoapp.models
+package com.demo.cryptoapp.models
+
+import com.google.gson.annotations.SerializedName
 
 data class Coin(
-    var id: String? = null,
-    var name: String? = null,
-    var symbol: String? = null,
-    var rank: Int? = null,
-    var isNew: Boolean? = null,
-    var isActive: Boolean? = null,
+    @SerializedName("id") var id: String? = null,
+    @SerializedName("name") var name: String? = null,
+    @SerializedName("symbol") var symbol: String? = null,
+    @SerializedName("rank") var rank: Int? = null,
+    @SerializedName("is_new") var isNew: Boolean? = null,
+    @SerializedName("is_active") var isActive: Boolean? = null,
+    @SerializedName("type") var type: String? = null,
     var value: Double? = null,
-    var percent: Double? = null,
-    var type: String? = null
+    var percent: Double? = null
 )

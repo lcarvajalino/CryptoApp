@@ -1,9 +1,9 @@
-package com.demo.cryptoapp.presenter
+package com.demo.cryptoapp.presenter.home
 
-import com.demo.cryptoapp.data.DataApi
-import com.cryptoapp.models.Coin
-import com.demo.cryptoapp.interfaces.IPresenterPrincipal
-import com.demo.cryptoapp.interfaces.IViewPrincipal
+import com.demo.cryptoapp.data.coins.DataApi
+import com.demo.cryptoapp.models.Coin
+import com.demo.cryptoapp.interfaces.principal.IPresenterPrincipal
+import com.demo.cryptoapp.interfaces.principal.IViewPrincipal
 
 class HomePresenter(private val view: IViewPrincipal) : IPresenterPrincipal {
 
